@@ -1,0 +1,70 @@
+<button id="themeButton">Change Theme Color</button>
+<!DOCTYPE html>
+<html>
+    </head>
+        <title>My First Webpage</title>
+    </head>
+    <div class="profile-card">
+        <img src="Profile pic.jpeg" alt="Profile Picture" class="profile-pic">
+        <h3>Giselle Imperia</h3>
+        <p>Aspiring Web Designer and Fashion Marketer</p>
+        <p>Interests: Upcycling clothing, Song writing, Outdoor activities</p>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#bio">About me</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#favorites">Favorites</a></li>
+            <li><a href="#pics">Gallery</a></li>
+        </ul>
+    </nav>
+    <body>
+        <title>About Me</title>
+        <h1>Welcome to my website!</h1>
+        <h2>Introduction:
+        <p> My name is Giselle Imperia and I am majoring in Interactive Design with a minor in Marketing. 
+            My goal is to become a Designer for a fashion based company or to 
+            be in the fashion marketing field. I would also like to start a clothing company business on the side. 
+            Below, I have an image of my favorite flower, Carnations.
+            I also have a list of my hobbies and Interests.
+
+        </p>
+        <title>Favorites</title>
+        <img src="CarnationFlowers.jpg" alt="My favorite flowers, Carnations">
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Personal Bio</title>
+</head>
+<body>
+    <div id = "name">
+<h1>Giselle Imperia</h1>
+    </div>
+
+    <div id = "hobbies">
+<h2>Hobbies & Interest</h2>
+<u1>
+    <li>Upcycling Clothing by Sewing</li>
+    <li>Designing in Ksu Close Knit Fashion Shows</li>
+    <li>Song writing</li>
+    <li>Spending time Outdoors & working out</li>
+</u1>
+    </div>
+
+    <div id = "pics">
+<h2>Pics</h2>
+<img src ="Spring Fashion Show Flier.jpeg" alt="Flier" width="500">
+<img src ="Upcycled Dress.jpeg" alt="Dress" width="500">
+    </div>
+<script>
+    document.getElementById('themeButton').addEventListener('click',function(){
+        document.body.classList.toggle('dark-theme');
+    });
+    
+</script>
+</body>
+</html>
+
