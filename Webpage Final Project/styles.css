@@ -1,0 +1,103 @@
+body{ 
+    background-color: #ffffff; /*Light grey background */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0); /*Dark grey text */
+}
+
+h1, h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000000; /* Black text */
+}
+h1 {
+    margin: 20px px;
+    padding-bottom: 10px;
+}
+
+p{
+    margin: 10px 0;
+    padding: 5px;
+}
+#name, #My-Work, #Plans, #About-me {
+    margin: 40px;
+    border: 3px solid #56062d; /* Light grey border */
+    padding: 30px;
+    background-color: #ae63773d; /* Light background for each */
+} 
+
+h2{
+    margin-bottom:10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/*Styles for dark theme*/
+.dark-theme {
+    background-color:#2d2c2c;/*Dark background*/
+    color:#000000; /*Light text*/
+}
+.dark-theme h1, .dark-theme h2 {
+    color: #f7c2e7; /*Orange color for headers in dark theme */
+}
+
+/* Navigation menu styles */
+nav{
+    background-color: #000000c3;
+    text-align: center;
+    padding: 6px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline; /* Aligns menu itens horizontally */
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.875);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #fe7fd6; /* Change color on hover */
+}
+
+.profile-card {
+    width: 500px;
+    margin: 75px auto;
+    border: 3px solid #000000;
+    padding: 20px;
+    background-color: #f5d5de;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.profile-card .profile-pic {
+    width: 350px;
+    height: 350px;
+    border-radius: 0px; /*circular image*/
+    margin: 30px auto;
+margin-left: auto
+}
+
+.profile-card h3 {
+    margin: 5px 0;
+}
+
+.profile-card p {
+    margin: 5px 0;
+}
+
+{linkedin}
